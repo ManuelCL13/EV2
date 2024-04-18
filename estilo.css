@@ -1,0 +1,141 @@
+.texto-titulo{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    text-shadow: black;
+}
+
+.texto-titulo2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-shadow: black;
+}
+
+.texto-30{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.texto-25{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.texto-20{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu{
+    list-style: none;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    top: 0; 
+    z-index: 100;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li{
+    float: left;
+    margin: 6px;
+}
+
+.menu li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fondo{
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    width: 100%;
+    background-image: url("img/fondo3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.info{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+.galeria{
+    background-color: black;
+}
+
+
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.contenedor-galeria img{
+    width: 30%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    transition: transform 0.3s;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.contenedor-galeria img:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.784);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.texto-footer{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ofertas{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
